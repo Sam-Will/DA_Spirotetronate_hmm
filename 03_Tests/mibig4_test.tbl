@@ -1,0 +1,29 @@
+#                                                                                                                                                  --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name                                                                             accession  query name                         accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#                                                                     ------------------- ----------               -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+BGC0000133.5|c1|56707-57837|+|AFI57012.1|QmnH|AFI57012.1                                  -          DA_cyclase_library_mafft_realigned -              9e-85  282.4   0.0     2e-41  142.1   0.0   2.1   2   0   0   2   2   2   2 -
+BGC0000162.5|c1|25068-25562|+|ACB37739.1|unknown|ACB37739.1                               -          DA_cyclase_library_mafft_realigned -            2.6e-50  170.8   0.3     3e-50  170.6   0.3   1.0   1   0   0   1   1   1   1 -
+BGC0001004.5|c1|85996-86451|-|AGI99498.1|unknown|AGI99498.1                               -          DA_cyclase_library_mafft_realigned -            3.4e-50  170.5   0.7   3.8e-50  170.3   0.7   1.0   1   0   0   1   1   1   1 -
+BGC0002550.2|c1|89481-89936|-|QFU80903.1|hypothetical_protein|QFU80903.1                  -          DA_cyclase_library_mafft_realigned -            3.4e-50  170.5   0.7   3.8e-50  170.3   0.7   1.0   1   0   0   1   1   1   1 -
+BGC0001183.5|c1|20408-20863|+|AGC09483.1|LobD1|AGC09483.1                                 -          DA_cyclase_library_mafft_realigned -            9.8e-50  169.0   0.4   1.1e-49  168.8   0.4   1.0   1   0   0   1   1   1   1 -
+BGC0000001.5|c1|7760-8182|-|abyU||abyU                                                    -          DA_cyclase_library_mafft_realigned -            6.1e-45  153.5   0.1   6.6e-45  153.3   0.1   1.0   1   0   0   1   1   1   1 -
+BGC0000164.5|c1|23030-23602|-|BAF73716.1|putative_ribosomal_protein_L15P|BAF73716.1       -          DA_cyclase_library_mafft_realigned -            6.1e-42  143.8   0.1   7.4e-42  143.5   0.1   1.1   1   0   0   1   1   1   1 -
+BGC0001694.4|c1|5766-6422|-|AVI57412.1|AbmU|AVI57412.1                                    -          DA_cyclase_library_mafft_realigned -            6.9e-42  143.6   0.0   9.3e-42  143.2   0.0   1.1   1   0   0   1   1   1   1 -
+BGC0000036.5|c1|99866-100441|-|AAZ77701.1|ChlL|AAZ77701.1                                 -          DA_cyclase_library_mafft_realigned -            3.4e-41  141.3   0.4   4.4e-41  141.0   0.4   1.1   1   0   0   1   1   1   1 -
+BGC0001204.5|c1|60902-61330|+|BAQ21945.1|[4+2]-cycloaddition_catalyzing_enzyme|BAQ21945.1 -          DA_cyclase_library_mafft_realigned -            9.2e-41  139.9   0.0     1e-40  139.8   0.0   1.0   1   0   0   1   1   1   1 -
+BGC0001288.5|c1|59328-59885|+|BAQ25497.1|hypothetical_protein|BAQ25497.1                  -          DA_cyclase_library_mafft_realigned -            2.7e-36  125.5   0.1   3.5e-36  125.1   0.1   1.2   1   0   0   1   1   1   1 -
+BGC0001492.5|c1|64213-64728|-|ARE67838.1|AbsU|ARE67838.1                                  -          DA_cyclase_library_mafft_realigned -            4.1e-35  121.7   0.0   4.7e-35  121.5   0.0   1.1   1   0   0   1   1   1   1 -
+BGC0002124.3|c1|20199-20759|-|ACTIVE_1773|tetrahydropyran_4+2_cyclase|QKG20137.1          -          DA_cyclase_library_mafft_realigned -            1.6e-29  103.6   0.2     2e-29  103.3   0.2   1.1   1   0   0   1   1   1   1 -
+BGC0003037.1|c1|5202-5756|-|AMB18976.1|RosD|AMB18976.1                                    -          DA_cyclase_library_mafft_realigned -            1.5e-17   64.8   0.1   1.9e-17   64.5   0.1   1.1   1   0   0   1   1   1   1 -
+BGC0000176.5|c1|24765-30518|+|CAJ57408.1|polyketide_synthase_type_I|CAJ57408.1            -          DA_cyclase_library_mafft_realigned -               0.22   12.5   0.3        51    4.8   0.0   2.8   3   0   0   3   3   3   0 -
+BGC0000162.5|c1|105310-105978|+|ACB37759.1|unknown|ACB37759.1                             -          DA_cyclase_library_mafft_realigned -               0.26   12.2   0.0       1.7    9.6   0.0   2.1   2   0   0   2   2   2   0 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      ../02_Model_building/DA_cyclase.hmm
+# Target file:     ../../../01_NNF/databases/mibig_prot_seqs_4.0rc1.fasta
+# Option settings: hmmsearch --tblout mibig4_test.tbl ../02_Model_building/DA_cyclase.hmm ../../../01_NNF/databases/mibig_prot_seqs_4.0rc1.fasta 
+# Current dir:     /mnt/c/Users/saedwi/OneDrive - Danmarks Tekniske Universitet/02_Collab/Diels-Alderase/03_Tests
+# Date:            Fri Nov  8 13:35:48 2024
+# [ok]
