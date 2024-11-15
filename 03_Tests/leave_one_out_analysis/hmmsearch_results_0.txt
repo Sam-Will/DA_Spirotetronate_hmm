@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+AbmU                 -          aligned_0            -            2.6e-33  101.1   0.0   3.2e-33  100.8   0.0   1.1   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      model_0.hmm
+# Target file:     leftout_0.fasta
+# Option settings: hmmsearch --tblout hmmsearch_results_0.txt model_0.hmm leftout_0.fasta 
+# Current dir:     /mnt/c/Users/saedwi/OneDrive - Danmarks Tekniske Universitet/02_Collab/Diels-Alderase/01_DA_fasta/Spirotet
+# Date:            Fri Nov 15 14:14:08 2024
+# [ok]
